@@ -66,6 +66,6 @@ This organization contains the experimental code, data, and analysis supporting 
 
 ## Published Version
 
-📄 **[Download PDF](https://doi.org/10.5281/zenodo.1234571)** (Zenodo)
+📄 **[Download PDF](https://doi.org/10.5281/zenodo.19323423)** (Zenodo)
 
 The PDF above is the canonical published version. This repository contains source code and experimental data.
