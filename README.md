@@ -1,71 +1,49 @@
-# The Serial Decoding Basin τ
+# Paper 4: The Serial Decoding Basin τ — Experiments & Code
 
-**Paper 4 Experiments & Code**
+**Five Experiments on Convergence, Thermodynamic Anchoring, and Receiver-Limited Geometry**
 
-✅ Published
-
-**Paper Publication:** https://github.com/Windstorm-Institute/serial-decoding-basin  
-**Windstorm Institute:** https://windstorminstitute.org
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19323423-blue)](https://doi.org/10.5281/zenodo.19323423)
+[![License: MIT](https://img.shields.io/badge/Code-MIT-green)](https://opensource.org/licenses/MIT)
 
 ---
+
+## Published Paper
+
+**[Windstorm-Institute/serial-decoding-basin](https://github.com/Windstorm-Institute/serial-decoding-basin)** — paper PDF, article HTML, Zenodo DOI
 
 ## Quick Start
 
 ```bash
-# Five experiments available:
-python exp01_zero_parameter.py      # Rate-distortion predictions
-python exp02_monte_carlo.py         # Basin significance
-python exp03_evolutionary.py        # Optimization convergence
-python exp04_convergence.py         # τ_n analysis
-python exp05_thermodynamic_anchor.py # kT prediction
+git clone https://github.com/Windstorm-Labs/serial-decoding-basin.git
+cd serial-decoding-basin
+pip install -r requirements.txt  # if present
+# See code/ or individual scripts for experiment instructions
 ```
 
----
+## Hardware
 
-## Reproducibility Info
+- **GPU:** NVIDIA RTX 5090 (32 GB VRAM)
+- **OS:** Ubuntu 24.04
+- **Python:** 3.11+
 
-All 5 experiments are standalone Python scripts
-
----
-
-## Results Preview
-
-τ₂₁ = 4.157 bits (95% CI: [3.97, 4.35])
+See individual experiment scripts for runtime estimates and specific dependencies.
 
 ---
 
-## Series Index
+## The Windstorm Series
 
-| # | Paper | Status | Key Result |
-|---|-------|--------|------------|
-| 1 | [Fons Constraint](https://github.com/Windstorm-Labs/fons-constraint) | ✅ Published | 64-codon alphabet |
-| 2 | [Receiver-Limited Floor](https://github.com/Windstorm-Labs/receiver-limited-floor) | ✅ Published | Vocab-independent BPT |
-| 3 | [Throughput Basin](https://github.com/Windstorm-Labs/throughput-basin) | ✅ Published | 31-system convergence |
-| 4 | [Serial Decoding Basin τ](https://github.com/Windstorm-Labs/serial-decoding-basin) | ✅ Published | τ = 4.16 ± 0.19 bits |
-| 5 | [Dissipative Decoder](https://github.com/Windstorm-Labs/dissipative-decoder) | ✅ Published | Regime A/B analysis |
-| 6 | [Inherited Constraint](https://github.com/Windstorm-Labs/inherited-constraint) | ✅ Published | AI inherits biology |
-| 7 | [AGI Extensions](https://github.com/sneakyfree/agi-extensions) | 🟡 Preprint | Data vs architecture (canonical at sneakyfree) |
+| # | Paper | DOI |
+|---|-------|-----|
+| 1 | [The Fons Constraint](https://github.com/Windstorm-Institute/fons-constraint) | [10.5281/zenodo.19274048](https://doi.org/10.5281/zenodo.19274048) |
+| 2 | [The Receiver-Limited Floor](https://github.com/Windstorm-Institute/receiver-limited-floor) | [10.5281/zenodo.19322973](https://doi.org/10.5281/zenodo.19322973) |
+| 3 | [The Throughput Basin](https://github.com/Windstorm-Institute/throughput-basin) | [10.5281/zenodo.19323194](https://doi.org/10.5281/zenodo.19323194) |
+| 4 | [The Serial Decoding Basin τ](https://github.com/Windstorm-Institute/serial-decoding-basin) | [10.5281/zenodo.19323423](https://doi.org/10.5281/zenodo.19323423) |
+| 5 | [The Dissipative Decoder](https://github.com/Windstorm-Institute/dissipative-decoder) | [10.5281/zenodo.19433048](https://doi.org/10.5281/zenodo.19433048) |
+| 6 | [The Inherited Constraint](https://github.com/Windstorm-Institute/inherited-constraint) | [10.5281/zenodo.19432911](https://doi.org/10.5281/zenodo.19432911) |
+| 7 | [The Throughput Basin Origin](https://github.com/sneakyfree/agi-extensions) | [PDF](https://github.com/sneakyfree/agi-extensions/blob/main/paper/Paper7-Throughput-Basin-Origin-v1.2.pdf) (preprint) |
 
-Legend: ✅ Complete (paper + code) | ✅ Published (paper on Zenodo) | 🚧 In Progress
-
-
+**Website:** [windstorminstitute.org](https://windstorminstitute.org)
 
 ---
 
-## About Windstorm-Labs
-
-This organization contains the experimental code, data, and analysis supporting the Windstorm Institute paper series. Each repository is designed for reproducibility and extension.
-
-**Questions?** Open an issue.  
-**Want to contribute?** Fork and PR.  
-**Found a bug?** Let us know.
-
----
-
-*License: MIT for code, CC BY 4.0 for data*
-
-## Published Version
-
-📄 **[Download PDF](https://doi.org/10.5281/zenodo.19323423)** (Zenodo)
-
-The PDF above is the canonical published version. This repository contains source code and experimental data.
+*Code: MIT License · Data: CC BY 4.0*
