@@ -25,6 +25,14 @@ This Labs repository is **paper-only** — the experimental code from Paper 4's 
 
 ---
 
+## Discuss this code
+
+- **Bug, reproduction failure, or unexpected output?** → [Open an Issue](../../issues)
+- **Q&A — version compatibility, hardware, generalization to other inputs?** → [Start a Discussion](../../discussions)
+- **Discuss the paper itself** → [Comments on the website article](https://windstorminstitute.org/articles/serial-decoding-basin.html#comments) or [Issues on the Institute repo](https://github.com/Windstorm-Institute/serial-decoding-basin/issues)
+
+---
+
 ## The Windstorm Series
 
 | # | Paper | DOI |
